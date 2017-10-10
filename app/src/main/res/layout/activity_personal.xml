@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/windowBackgroundColor"
+        android:orientation="vertical"
+        tools:context="com.nice.otis.ui.activity.PersonalActivity">
+
+        <include layout="@layout/app_layout_title" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:fillViewport="true"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:background="@color/windowBackgroundColor"
+                android:layout_height="match_parent">
+                <FrameLayout
+                    android:background="@color/white_background"
+                    android:layout_width="match_parent"
+                    android:layout_height="220dp">
+                    <ImageView
+                        android:scaleType="centerCrop"
+                        android:src="@mipmap/back_ground"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+                    <TextView
+                        android:textColor="@color/white_background"
+                        android:gravity="center"
+                        android:textSize="18sp"
+                        android:singleLine="true"
+                        android:padding="5dp"
+                        android:id="@+id/nick_name"
+                        android:layout_marginTop="30dp"
+                        android:background="@drawable/bg_no_color_round"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp" />
+                    <LinearLayout
+                        android:background="#80000000"
+                        android:padding="10dp"
+                        android:orientation="horizontal"
+                        android:layout_gravity="bottom"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:id="@+id/nums"
+                            android:gravity="center"
+                            android:textColor="@color/white_background"
+                            android:textSize="14sp"
+                            android:lines="2"
+                            android:lineSpacingMultiplier="1.5"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:gravity="center"
+                            android:id="@+id/integral"
+                            android:textColor="@color/white_background"
+                            android:textSize="14sp"
+                            android:lines="2"
+                            android:lineSpacingMultiplier="1.5"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                </FrameLayout>
+
+                <TextView
+                    android:id="@+id/person"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/white_background"
+                    android:drawableLeft="@drawable/ic_vector_person"
+                    android:drawablePadding="15dp"
+                    android:drawableRight="@drawable/ic_vector_right_go"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="个人信息"
+                    android:textColor="@color/textBlackColor"
+                    android:textSize="16sp" />
+                <View
+                    style="@style/gray_line"/>
+                <TextView
+                    android:id="@+id/member"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white_background"
+                    android:drawableLeft="@drawable/ic_vector_member"
+                    android:drawablePadding="15dp"
+                    android:drawableRight="@drawable/ic_vector_right_go"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="积分兑换"
+                    android:textColor="@color/textBlackColor"
+                    android:textSize="16sp" />
+                <View
+                    style="@style/gray_line"/>
+
+                <TextView
+                    android:id="@+id/point"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white_background"
+                    android:drawableLeft="@drawable/ic_vector_mypoint"
+                    android:drawablePadding="15dp"
+                    android:drawableRight="@drawable/ic_vector_right_go"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="我的积分"
+                    android:textColor="@color/textBlackColor"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/edit_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/white_background"
+                    android:drawableLeft="@drawable/ic_vector_setting_blue"
+                    android:drawablePadding="15dp"
+                    android:drawableRight="@drawable/ic_vector_right_go"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="修改密码"
+                    android:textColor="@color/textBlackColor"
+                    android:textSize="16sp" />
+
+                <View style="@style/gray_line" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white_background"
+                        android:drawableLeft="@drawable/ic_vector_edition"
+                        android:drawablePadding="15dp"
+                        android:gravity="center_vertical"
+                        android:padding="10dp"
+                        android:text="版本信息"
+                        android:textColor="@color/textBlackColor"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/version_message"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/white_background"
+                        android:gravity="end"
+                        android:padding="10dp"
+                        android:textColor="@color/textBlackColor"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <View style="@style/gray_line" />
+
+                <TextView
+                    android:id="@+id/about_us"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white_background"
+                    android:drawableLeft="@drawable/ic_vector_customer"
+                    android:drawablePadding="15dp"
+                    android:drawableRight="@drawable/ic_vector_right_go"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="关于我们"
+                    android:textColor="@color/textBlackColor"
+                    android:textSize="16sp" />
+                <TextView
+                    android:id="@+id/exit_login"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/bg_red_fillet"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="注\u3000销"
+                    android:textColor="@color/white_background"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</layout>

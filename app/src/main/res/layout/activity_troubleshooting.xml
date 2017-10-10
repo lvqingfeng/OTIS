@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/windowBackgroundColor"
+        android:orientation="vertical"
+        tools:context="com.nice.otis.ui.activity.TroubleshootingActivity">
+
+        <include layout="@layout/app_layout_title" />
+
+        <View style="@style/Ten_lines" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white_background"
+            android:padding="10dp"
+            android:textColor="@color/textBlackColor"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/windowBackgroundColor"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <EditText
+                android:id="@+id/search"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_white_rectangle"
+                android:drawableLeft="@drawable/ic_vector_search"
+                android:drawablePadding="6dp"
+                android:hint="请输入故障代码"
+                android:inputType="numberSigned"
+                android:padding="10dp"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/query"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_blue_fillet"
+                android:paddingBottom="6dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:paddingTop="6dp"
+                android:text="查\u3000询"
+                android:textColor="@color/white_background"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+
+
+        <View style="@style/Ten_lines" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:fillViewport="true">
+
+            <LinearLayout
+                android:id="@+id/question"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/content"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white_background"
+                    android:lineSpacingMultiplier="1.5"
+                    android:padding="10dp"
+                    android:textColor="@color/textBlackColor"
+                    android:textSize="14sp" />
+
+                <View style="@style/gray_line" />
+
+                <TextView
+                    android:layout_margin="8dp"
+                    android:id="@+id/button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_white_rectangle"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="查看解决方案"
+                    android:textColor="@color/textBlackColor"
+                    android:textSize="16sp" />
+
+
+
+                <TextView
+                    android:id="@+id/answer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white_background"
+                    android:lineSpacingMultiplier="1.5"
+                    android:padding="10dp"
+                    android:textColor="@color/textBlackColor"
+                    android:textSize="14sp" />
+            </LinearLayout>
+        </ScrollView>
+        <LinearLayout
+            android:id="@+id/flashlight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_vector_flashlight" />
+
+            <TextView
+                android:id="@+id/open_flash"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="打开手电筒"
+                android:textColor="@color/BaseColor"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </LinearLayout>
+</layout>

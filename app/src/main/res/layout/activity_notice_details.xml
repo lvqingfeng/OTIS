@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/windowBackgroundColor"
+        android:orientation="vertical"
+        tools:context="com.nice.otis.ui.activity.SortListActivity.ui.activity.NoticeDetailsActivity">
+
+        <include layout="@layout/app_layout_title" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:fillViewport="true"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:orientation="vertical"
+                android:background="@color/windowBackgroundColor"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <View style="@style/Ten_lines" />
+
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white_background"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:textColor="@color/textBlackColor"
+                    android:textSize="18sp" />
+                <View style="@style/gray_line" />
+
+               <LinearLayout
+                   android:background="@color/white_background"
+                   android:gravity="center"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content">
+                   <TextView
+                       android:drawableLeft="@drawable/ic_vector_time"
+                       android:drawablePadding="15dp"
+                       android:id="@+id/time"
+                       android:padding="10dp"
+                       android:textSize="12sp"
+                       android:background="@color/white_background"
+                       android:gravity="center"
+                       android:textColor="@color/textBlackColor"
+                       android:singleLine="true"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content" />
+               </LinearLayout>
+                <View style="@style/Ten_lines" />
+
+                <TextView
+                    android:id="@+id/content"
+                    android:lineSpacingMultiplier="1.4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white_background"
+                    android:padding="10dp"
+                    android:textSize="14sp" />
+
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</layout>

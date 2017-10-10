@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+       <include layout="@layout/app_layout_title"/>
+        <ScrollView
+            android:fillViewport="true"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:background="@color/white_background"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="10dp">
+                <LinearLayout
+                    android:gravity="center_horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp">
+                    <ImageView
+                        android:layout_marginTop="20dp"
+                        android:src="@mipmap/logo"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp" />
+                </LinearLayout>
+                <EditText
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:maxLength="11"
+                    android:id="@+id/register_phone"
+                    style="@style/LoginEditTextStyle"
+                    android:drawableLeft="@drawable/ic_vector_person"
+                    android:drawablePadding="15dp"
+                    android:hint="请输入账号"
+                    android:inputType="numberSigned" />
+
+
+
+                <LinearLayout
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:ems="6"
+                        android:background="@drawable/bg_stroke_gray"
+                        android:inputType="numberSigned"
+                        android:id="@+id/register_messageCode"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:drawableLeft="@drawable/ic_vector_password"
+                        android:drawablePadding="15dp"
+                        android:hint="请输入验证码"
+                        android:padding="10dp"
+                        android:textColor="@color/textBlackColor"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:layout_marginLeft="15dp"
+                        android:padding="10dp"
+                        android:id="@+id/register_btn_code"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:background="@drawable/bg_blue_fillet"
+                        android:gravity="center"
+                        android:singleLine="true"
+                        android:text="发送验证码"
+                        android:textColor="@color/white_background"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+
+                <EditText
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:maxLength="16"
+                    android:id="@+id/register_password"
+                    android:layout_marginTop="10dp"
+                    style="@style/LoginEditTextStyle"
+                    android:drawablePadding="15dp"
+                    android:drawableLeft="@drawable/ic_vector_password"
+                    android:inputType="textPassword"
+                    android:hint="请输入密码" />
+
+
+                <Button
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:id="@+id/register_btn_register"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/bg_blue_fillet"
+                    android:text="注\u3000册"
+                    android:textColor="@color/white_background"
+                    android:textSize="16sp" />
+                <LinearLayout
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center|bottom"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:id="@+id/agreement"
+                        android:textSize="14sp"
+                        android:text="注册代表同意《用户系协议》"
+                        android:textColor="@color/BaseColor"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</layout>

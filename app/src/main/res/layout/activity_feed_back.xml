@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white_background"
+        android:orientation="vertical"
+        tools:context="com.nice.otis.ui.activity.LoginActivity">
+
+        <include layout="@layout/app_layout_title" />
+        <EditText
+            android:padding="8dp"
+            android:id="@+id/info"
+            android:gravity="start"
+            android:hint="反馈..."
+            android:layout_margin="10dp"
+            android:textColor="@color/textBlackColor"
+            android:textSize="16sp"
+            android:background="@drawable/bg_white_rectangle"
+            android:layout_width="match_parent"
+            android:lines="6"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/commit"
+            android:text="提\u3000交"
+            android:textSize="16sp"
+            android:textColor="@color/white_background"
+            android:background="@drawable/bg_blue_fillet"
+            android:layout_margin="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</layout>
+

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="NoColor">#00FFFFFF</color>
+    <color name="BaseColor">#1295D9</color>
+    <color name="BaseTopColor">#1295D9</color>
+    <color name="colorPrimary">#1295D9</color>
+    <color name="colorPrimaryDark">#1295D9</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="status_bar_color">@color/colorPrimaryDark</color>
+    <color name="textBlackColor">#3d3d40</color>
+    <color name="textBlueColor">#1369b2</color>
+    <color name="textOrangeColor">#fc785a</color>
+    <color name="colorTitleColor">@android:color/white</color>
+    <color name="white_background">#FFF</color>
+    <color name="red_background">#e1262f</color>
+    <color name="blue_background">#1295D9</color>
+    <color name="green_background">#43CD80</color>
+    <color name="yellow_background">#EEEE00</color>
+    <color name="gray_background">#ccc</color>
+    <color name="orange_background">#EEAD0E</color>
+    <color name="windowBackgroundColor">#f5f5f5</color>
+    <color name="LightBlue">#3e84c0</color>
+    <color name="plain">#4388c2</color>//浅白
+    <color name="colorFocused">#f594d2</color>
+    <color name="colorNormal">#aaf594d2</color>
+    <color name="colorToast">#66e74848</color>
+    <color name="colorText">#f9f903cc</color>
+    <color name="colorTextBG">#f9e1e1</color>
+    <color name="colorType">#c8d91574</color>
+    <color name="colorTypeBG">#f1acac</color>
+</resources>

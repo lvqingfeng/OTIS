@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="banner_size">8dp</dimen>
+    <dimen name="title_back_margin">9dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="textSize">18sp</dimen>
+    <dimen name="defaultPadding">10dp</dimen>
+    <dimen name="largeTextSize">25sp</dimen>
+</resources>

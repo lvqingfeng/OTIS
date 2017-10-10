@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/windowBackgroundColor"
+        android:orientation="vertical"
+        tools:context="com.nice.otis.ui.activity.MyPointActivity">
+
+        <include layout="@layout/app_layout_title" />
+        <android.support.design.widget.TabLayout
+            android:layout_gravity="center"
+            android:id="@+id/tab_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:tabMode="fixed"
+            android:background="@color/white_background"
+            app:tabIndicatorColor="@color/BaseColor"
+            app:tabSelectedTextColor="@color/BaseColor"
+            app:tabTextColor="@color/textBlackColor"  />
+        <View
+            style="@style/Ten_lines"/>
+        <android.support.v4.view.ViewPager
+            android:id="@+id/view_pager_point"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+</layout>

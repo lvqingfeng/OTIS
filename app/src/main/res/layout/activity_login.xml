@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.nice.otis.ui.activity.LoginActivity">
+
+        <include layout="@layout/app_layout_title" />
+
+        <android.support.v4.widget.NestedScrollView
+            android:fillViewport="true"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:background="@color/white_background"
+                android:padding="10dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:gravity="center">
+                    <ImageView
+                        android:src="@mipmap/logo"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp" />
+                </LinearLayout>
+                <EditText
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:maxLength="11"
+                    android:id="@+id/login_username"
+                    style="@style/LoginEditTextStyle"
+                    android:inputType="numberSigned"
+                    android:drawablePadding="15dp"
+                    android:drawableLeft="@drawable/ic_vector_person"
+                    android:hint="请输入账号" />
+
+
+                <EditText
+                    android:id="@+id/login_password"
+                    style="@style/LoginEditTextStyle"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="10dp"
+                    android:drawableLeft="@drawable/ic_vector_password"
+                    android:drawablePadding="15dp"
+                    android:hint="请输入密码"
+                    android:inputType="textPassword"
+                    android:maxLength="16" />
+
+
+                <Button
+                    android:id="@+id/btn_login"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/bg_blue_fillet"
+                    android:text="登\u3000录"
+                    android:textColor="@color/white_background"
+                    android:textSize="16sp" />
+
+                <LinearLayout
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal"
+                    android:paddingRight="10dp">
+
+                    <TextView
+                        android:id="@+id/forget_pass"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="忘记密码?"
+                        android:textColor="@color/BaseColor"
+                        android:textSize="16sp" />
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="1dp"
+                        android:layout_weight="1"
+                        android:background="@null" />
+
+                    <TextView
+                        android:id="@+id/btn_register"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="注册账号"
+                        android:textColor="@color/BaseColor"
+                        android:textSize="16sp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:visibility="gone"
+                    android:background="@color/white_background"
+                    android:gravity="bottom|center_horizontal"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:id="@+id/agreement"
+                        android:text="《用户协议》"
+                        android:padding="10dp"
+                        android:textSize="16sp"
+                        android:textColor="@color/BaseColor"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v4.widget.NestedScrollView>
+    </LinearLayout>
+</layout>

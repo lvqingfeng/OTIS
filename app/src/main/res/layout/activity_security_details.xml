@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/windowBackgroundColor"
+        android:orientation="vertical"
+        tools:context="com.nice.otis.ui.activity.SortListActivity.ui.activity.SecurityDetailsActivity">
+
+        <include layout="@layout/app_layout_title" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/windowBackgroundColor"
+                android:orientation="vertical">
+
+                <View style="@style/Ten_lines" />
+
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white_background"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:textColor="@color/textBlackColor"
+                    android:textSize="18sp" />
+                <View style="@style/Ten_lines" />
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:background="@color/white_background"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:id="@+id/tag"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white_background"
+                        android:padding="10dp"
+                        android:gravity="center_vertical"
+                        android:singleLine="true"
+                        android:textColor="@color/textBlackColor"
+                        android:textSize="12sp" />
+                    <TextView
+                        android:id="@+id/time"
+                        android:drawableLeft="@drawable/ic_vector_time"
+                        android:drawablePadding="15dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white_background"
+                        android:gravity="center_vertical"
+                        android:padding="10dp"
+                        android:singleLine="true"
+                        android:textColor="@color/textBlackColor"
+                        android:textSize="12sp" />
+                </LinearLayout>
+                <View style="@style/Ten_lines" />
+
+                <TextView
+                    android:id="@+id/content"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white_background"
+                    android:lineSpacingMultiplier="1.4"
+                    android:padding="10dp"
+                    android:textSize="14sp" />
+
+
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</layout>

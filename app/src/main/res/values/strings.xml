@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">掌上电梯</string>
+    <string name="title_activity_splash">SplashActivity</string>
+</resources>

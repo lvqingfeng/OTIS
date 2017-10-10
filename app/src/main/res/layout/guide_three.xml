@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/guide_3"
+    android:gravity="bottom|end"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/guide_start"
+        android:gravity="center"
+        android:layout_width="45dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginRight="15dp"
+        android:ems="1"
+        android:background="@drawable/bg_ellipse_white"
+        android:padding="10dp"
+        android:src="@mipmap/immediately"
+        android:text="立即启动"
+        android:textColor="@color/white_background"
+        android:textSize="18sp"
+        android:textStyle="italic" />
+</LinearLayout>

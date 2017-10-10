@@ -1,0 +1,69 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="BaseAppTheme" />
+
+    <style name="SplashStyle" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:background">@color/BaseColor</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="BaseAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">#FF0000</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+
+    <style name="LoginEditTextStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/bg_stroke_gray</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textColor">@color/textBlackColor</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <!--自定义灰色线条-->
+    <style name="gray_line">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1px</item>
+        <item name="android:background">#f5f5f5</item>
+    </style>
+    <!--自定义10dp灰色线条-->
+    <style name="Ten_lines">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">10dp</item>
+        <item name="android:background">#f5f5f5</item>
+    </style>
+
+    <declare-styleable name="IndexBar">
+        <attr name="normalColor" format="color" />
+        <attr name="selecColor" format="color" />
+        <attr name="indexSize" format="dimension" />
+    </declare-styleable>
+
+    <!--用来填补空白的控件-->
+    <style name="weight_view">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <!--  PopWindow的动画 -->
+    <style name="PopWindow_y_anim_style">
+        <item name="android:windowEnterAnimation">@anim/popshow_y_anim</item>
+        <!-- 指定显示的动画xml -->
+
+        <item name="android:windowExitAnimation">@anim/pophidden_y_anim</item>
+        <!-- 指定消失的动画xml -->
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

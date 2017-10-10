@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lzp.statusbar.view.TitleCompatLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/title_compat_app_title_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/BaseColor">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp">
+
+
+        <LinearLayout
+            android:id="@+id/ll_app_title_layout_center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:orientation="vertical" />
+
+        <LinearLayout
+            android:id="@+id/ll_app_title_layout_left"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/title_back_margin"
+            android:paddingRight="@dimen/title_back_margin"
+            android:paddingStart="@dimen/title_back_margin"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/iv_app_title_layout_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:src="@drawable/ic_vector_back" />
+
+            <TextView
+                android:id="@+id/tv_app_title_layout_left_hint"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
+                android:gravity="center"
+                android:textColor="@color/colorTitleColor" />
+        </LinearLayout>
+
+        <CheckBox
+            android:id="@+id/tv_app_title_layout_right"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:button="@null"
+            android:gravity="center"
+            android:paddingEnd="5dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingStart="5dp"
+            android:textColor="@color/colorTitleColor" />
+
+
+    </RelativeLayout>
+
+</com.lzp.statusbar.view.TitleCompatLayout>

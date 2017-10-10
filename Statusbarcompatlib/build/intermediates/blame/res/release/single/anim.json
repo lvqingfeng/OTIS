@@ -1,0 +1,66 @@
+[
+    {
+        "merged": "D:\\workspace\\OTIS\\Statusbarcompatlib\\build\\intermediates\\res\\merged\\release\\anim\\abc_fade_in.xml",
+        "source": "C:\\Users\\Tongfang\\.android\\build-cache\\0d6a90d50ee797eb7baad2907bf04f66b9adff6a\\output\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "D:\\workspace\\OTIS\\Statusbarcompatlib\\build\\intermediates\\res\\merged\\release\\anim\\design_fab_in.xml",
+        "source": "C:\\Users\\Tongfang\\.android\\build-cache\\af1245dbd8a3149609e8b7edf8c95721eca61ccd\\output\\res\\anim\\design_fab_in.xml"
+    },
+    {
+        "merged": "D:\\workspace\\OTIS\\Statusbarcompatlib\\build\\intermediates\\res\\merged\\release\\anim\\design_fab_out.xml",
+        "source": "C:\\Users\\Tongfang\\.android\\build-cache\\af1245dbd8a3149609e8b7edf8c95721eca61ccd\\output\\res\\anim\\design_fab_out.xml"
+    },
+    {
+        "merged": "D:\\workspace\\OTIS\\Statusbarcompatlib\\build\\intermediates\\res\\merged\\release\\anim\\design_bottom_sheet_slide_out.xml",
+        "source": "C:\\Users\\Tongfang\\.android\\build-cache\\af1245dbd8a3149609e8b7edf8c95721eca61ccd\\output\\res\\anim\\design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "D:\\workspace\\OTIS\\Statusbarcompatlib\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\Tongfang\\.android\\build-cache\\0d6a90d50ee797eb7baad2907bf04f66b9adff6a\\output\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "D:\\workspace\\OTIS\\Statusbarcompatlib\\build\\intermediates\\res\\merged\\release\\anim\\design_snackbar_out.xml",
+        "source": "C:\\Users\\Tongfang\\.android\\build-cache\\af1245dbd8a3149609e8b7edf8c95721eca61ccd\\output\\res\\anim\\design_snackbar_out.xml"
+    },
+    {
+        "merged": "D:\\workspace\\OTIS\\Statusbarcompatlib\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\Tongfang\\.android\\build-cache\\0d6a90d50ee797eb7baad2907bf04f66b9adff6a\\output\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "D:\\workspace\\OTIS\\Statusbarcompatlib\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Users\\Tongfang\\.android\\build-cache\\0d6a90d50ee797eb7baad2907bf04f66b9adff6a\\output\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "D:\\workspace\\OTIS\\Statusbarcompatlib\\build\\intermediates\\res\\merged\\release\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "C:\\Users\\Tongfang\\.android\\build-cache\\0d6a90d50ee797eb7baad2907bf04f66b9adff6a\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\workspace\\OTIS\\Statusbarcompatlib\\build\\intermediates\\res\\merged\\release\\anim\\design_snackbar_in.xml",
+        "source": "C:\\Users\\Tongfang\\.android\\build-cache\\af1245dbd8a3149609e8b7edf8c95721eca61ccd\\output\\res\\anim\\design_snackbar_in.xml"
+    },
+    {
+        "merged": "D:\\workspace\\OTIS\\Statusbarcompatlib\\build\\intermediates\\res\\merged\\release\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\Tongfang\\.android\\build-cache\\0d6a90d50ee797eb7baad2907bf04f66b9adff6a\\output\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "D:\\workspace\\OTIS\\Statusbarcompatlib\\build\\intermediates\\res\\merged\\release\\anim\\abc_popup_enter.xml",
+        "source": "C:\\Users\\Tongfang\\.android\\build-cache\\0d6a90d50ee797eb7baad2907bf04f66b9adff6a\\output\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "D:\\workspace\\OTIS\\Statusbarcompatlib\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\Tongfang\\.android\\build-cache\\0d6a90d50ee797eb7baad2907bf04f66b9adff6a\\output\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "D:\\workspace\\OTIS\\Statusbarcompatlib\\build\\intermediates\\res\\merged\\release\\anim\\abc_popup_exit.xml",
+        "source": "C:\\Users\\Tongfang\\.android\\build-cache\\0d6a90d50ee797eb7baad2907bf04f66b9adff6a\\output\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "D:\\workspace\\OTIS\\Statusbarcompatlib\\build\\intermediates\\res\\merged\\release\\anim\\design_bottom_sheet_slide_in.xml",
+        "source": "C:\\Users\\Tongfang\\.android\\build-cache\\af1245dbd8a3149609e8b7edf8c95721eca61ccd\\output\\res\\anim\\design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "D:\\workspace\\OTIS\\Statusbarcompatlib\\build\\intermediates\\res\\merged\\release\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "C:\\Users\\Tongfang\\.android\\build-cache\\0d6a90d50ee797eb7baad2907bf04f66b9adff6a\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    }
+]

@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/windowBackgroundColor"
+        android:orientation="vertical"
+        tools:context="com.nice.otis.ui.activity.PersonalActivity">
+
+        <include layout="@layout/app_layout_title" />
+
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="vertical">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:background="@color/white_background">
+                    <ImageView
+                        android:scaleType="center"
+                        android:src="@mipmap/back_ground"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+                    <ImageView
+                        android:layout_gravity="center"
+                        android:id="@+id/head_image"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:scaleType="centerCrop"
+                        android:src="@mipmap/ic_launcher" />
+
+                </FrameLayout>
+
+                <View style="@style/Ten_lines" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white_background"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="姓名"
+                        android:textColor="@color/textBlackColor"
+                        android:textSize="16sp" />
+
+                    <EditText
+                        android:id="@+id/true_name"
+                        android:singleLine="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:drawablePadding="15dp"
+                        android:drawableRight="@drawable/ic_vector_right_go"
+                        android:gravity="end"
+                        android:hint="请输入姓名"
+                        android:textColor="@color/textBlackColor"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <View style="@style/gray_line" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white_background"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="性别"
+                        android:textColor="@color/textBlackColor"
+                        android:textSize="16sp" />
+
+                    <RadioGroup
+                        android:id="@+id/radio_group"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <View
+                            style="@style/weight_view"
+                            android:layout_weight="3" />
+
+                        <RadioButton
+                            android:id="@+id/radio_man"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@null"
+                            android:drawableLeft="@drawable/ic_checked_select"
+                            android:drawablePadding="5dp"
+                            android:text="先生"
+                            android:textColor="@color/textBlackColor" />
+
+                        <View style="@style/weight_view" />
+                        <RadioButton
+                            android:id="@+id/radio_secrecy"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@null"
+                            android:checked="true"
+                            android:drawableLeft="@drawable/ic_checked_select"
+                            android:drawablePadding="5dp"
+                            android:text="保密"
+                            android:textColor="@color/textBlackColor" />
+                        <View style="@style/weight_view" />
+                        <RadioButton
+                            android:id="@+id/radio_woman"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@null"
+                            android:drawableLeft="@drawable/ic_checked_select"
+                            android:drawablePadding="5dp"
+                            android:text="女士"
+                            android:textColor="@color/textBlackColor" />
+
+                        <View
+                            style="@style/weight_view"
+                            android:layout_weight="3" />
+                    </RadioGroup>
+                </LinearLayout>
+
+                <View style="@style/gray_line" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white_background"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="昵称"
+                        android:textColor="@color/textBlackColor"
+                        android:textSize="16sp" />
+
+                    <EditText
+                        android:id="@+id/nick_name"
+                        android:singleLine="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:drawablePadding="15dp"
+                        android:drawableRight="@drawable/ic_vector_right_go"
+                        android:gravity="end"
+                        android:hint="请输入昵称"
+                        android:textColor="@color/textBlackColor"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <View style="@style/gray_line" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white_background"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="生日"
+                        android:textColor="@color/textBlackColor"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/birth"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawablePadding="15dp"
+                        android:drawableRight="@drawable/ic_vector_right_go"
+                        android:gravity="end"
+                        android:hint="请选择生日"
+                        android:textColor="@color/textBlackColor"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <View style="@style/gray_line" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white_background"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="手机号"
+                        android:textColor="@color/textBlackColor"
+                        android:textSize="16sp" />
+
+                    <EditText
+                        android:id="@+id/mobile"
+                        android:singleLine="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:drawablePadding="15dp"
+                        android:drawableRight="@drawable/ic_vector_right_go"
+                        android:gravity="end"
+                        android:hint="请输入手机号"
+                        android:textColor="@color/textBlackColor"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <View style="@style/gray_line" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</layout>
+
